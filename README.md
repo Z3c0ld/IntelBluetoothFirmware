@@ -2,8 +2,6 @@
 
 ![CI](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/workflows/CI/badge.svg)
 
-- **English**
-
 ## Intro
 
 IntelBluetoothFirmware is a Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS.
