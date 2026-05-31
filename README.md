@@ -3,7 +3,6 @@
 ![CI](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/workflows/CI/badge.svg)
 
 - **English**
-- [简体中文](/.github/README-zh_Hans.md)
 
 ## Intro
 
