@@ -10,9 +10,7 @@
 IntelBluetoothFirmware is a Kernel Extension that uploads Intel Wireless Bluetooth Firmware to provide native Bluetooth in macOS.
 The firmware binary files are from the Linux Open Source Project.
 
-After several months of public testing, it appears that the Kext is working well and stable.
-
-[![Join the chat at https://gitter.im/OpenIntelWireless/itlwm](https://badges.gitter.im/OpenIntelWireless/IntelBluetoothFirmware.svg)](https://gitter.im/OpenIntelWireless/IntelBluetoothFirmware?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+macOS 26.5: This branch adds a second hook for IOUSBHostPipe::initWithDescriptorsAndOwners using the ConfigurationDescriptor mangled symbol. Required for BLE HID pairing on Tahoe 26.5 with Intel 8087:0026 (and similar). Classic BT was unaffected; LE-only devices timed out without this patch.
 
 ## Documentation
 
